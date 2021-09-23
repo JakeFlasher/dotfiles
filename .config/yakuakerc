@@ -1,0 +1,24 @@
+[Desktop Entry]
+DefaultProfile=Profile 3.profile
+
+[Dialogs]
+FirstRun=false
+
+[Favorite Profiles]
+Favorites=
+
+[Notification Messages]
+ShowPasteHugeTextWarning=false
+
+[Shortcuts]
+close-session=Ctrl+Shift+Q
+file_quit=none
+switch-to-session-1=Alt+1
+switch-to-session-2=Alt+2
+switch-to-session-3=Alt+3
+switch-to-session-4=Alt+4
+
+[Window]
+DynamicTabTitles=true
+Height=40
+Width=100
