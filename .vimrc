@@ -295,8 +295,8 @@ xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 " }}}
 " asynctasks & asyncrun" {{{
-noremap <silent><F1> :AsyncTask file-build<CR>
-noremap <silent><F2> :AsyncTask file-run<CR>
+noremap <silent><F7> :AsyncTask file-build<CR>
+noremap <silent><F8> :AsyncTask file-run<CR>
 let g:asyncrun_open = 6
 let g:asynctasks_term_pos = "bottom"
 let g:asyncrun_rootmarks = ['.git', '.svn', '.root', '.project', '.hg']
@@ -462,7 +462,10 @@ function! LightlineCocInfo()
 endfunction
 " }}}
 " UltiSnips: {{{
-let g:UltiSnipsExpandTrigger = '<f1>'
+  let g:UltiSnipsListSnippets = '<c-tab>'
+  let g:UltiSnipsJumpForwardTrigger = '<F1>'
+  let g:UltiSnipsJumpBackwardTrigger = '<c-k>'
+  let g:UltiSnipsExpandTrigger = '<F1>'
 " }}}
 " Coc_default: {{{
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
